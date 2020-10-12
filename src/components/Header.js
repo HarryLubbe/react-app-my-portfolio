@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme=> ({
         margin: theme.spacing(1),
     },
     title: {
-        color: "#07575B"
+        color: "white"
     },
     subtitle: {
         color: "#66A5AD",

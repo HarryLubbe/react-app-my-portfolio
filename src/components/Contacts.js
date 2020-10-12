@@ -26,8 +26,8 @@ const useStyles = makeStyles(theme=>({
     },
     button: {
         marginTop: "1rem",
-        color: "#07575B",
-        borderColor: "#07575B"
+        color: "white",
+        borderColor: "white"
     }
 }));
 
@@ -47,7 +47,7 @@ const InputField = withStyles({
                 borderColor: "#66A5AD",
             },
             "&.Mui-focused fieldset": {
-                borderColor: "#66A5AD",
+                borderColor: "white",
             }
         },
     },
@@ -63,7 +63,7 @@ const Contacts = () => {
             <form onSubmit={sendEmail}>
             <Grid container justify="center">
                 <Box component="form" className={classes.form}>
-                    <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase"}}>
+                    <Typography variant="h5" style={{color: "white", textAlign: "center", textTransform: "uppercase"}}>
                         contact me here
                     </Typography>
                     <InputField

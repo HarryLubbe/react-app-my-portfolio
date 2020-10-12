@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme=>({
         height: theme.spacing(13)
     },
     listItem: {
-       color: "#07575B" 
+       color: "white" 
     }
 }) );
 
@@ -56,7 +56,7 @@ const menuItems = [
         listPath: "/resume"
     },{
         listIcon: <Apps/>,
-        listText: "Porfolio",
+        listText: "About me",
         listPath: "/portfolio"
     },{
         listIcon: <ContactMail/>,
