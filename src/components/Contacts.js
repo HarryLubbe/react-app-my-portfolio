@@ -58,7 +58,7 @@ const Contacts = () => {
     const classes = useStyles()
 
     return (
-        <Box component="div" style={{background: "#233", height: "100vh"}}>
+        <Box component="div">
             <Navbar/>
             <form onSubmit={sendEmail}>
             <Grid container justify="center">
