@@ -43,7 +43,7 @@ const Portfolio = () => {
                                     About my app
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    I used React, a javascript library for building user interfaces, to build my website. Alongside that i utilised the Material-UI API for my components giving it a sleek, proffesional feel. In my homepage I utilised the react particle-api-js lirbrary to incorporate particle effects. For my contacts page i used the email.js api which automatcially sends the filled in message to my inbox when contact me is selected. Lastly, I hosted my website on Azure hosting as well as built an Azure-Doc-Pipeline.
+                                    I used React, a javascript library for building user interfaces, to build my website. Alongside that i utilised the Material-UI API for my components giving it a sleek, proffesional feel. In my homepage I utilised the react particle-api-js lirbrary to incorporate particle effects. For my contacts page i used the email.js api which automatcially sends the filled in message to my inbox when contact me is selected.
                                 </Typography>
                             </CardContent>
                             <CardActions>
