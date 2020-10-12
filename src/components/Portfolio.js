@@ -43,7 +43,7 @@ const Portfolio = () => {
                                     About my app
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    I used React, a javascript library for building user interfaces, to build my website. Alongside that i utilised the Material-UI API for my components giving it a sleek, proffesional feel. In my homepage I utilised the react particle-api-js lirbrary to incorporate particle effects and finally hosted my website on Azure hosting as well as built an Azure-Doc-Pipeline.
+                                    I used React, a javascript library for building user interfaces, to build my website. Alongside that i utilised the Material-UI API for my components giving it a sleek, proffesional feel. In my homepage I utilised the react particle-api-js lirbrary to incorporate particle effects. For my contacts page i used the email.js api which automatcially sends the filled in message to my inbox when contact me is selected. Lastly, I hosted my website on Azure hosting as well as built an Azure-Doc-Pipeline.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                                     About me
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    My full name is Harry-Carl Lubbe Siska, I was born 8th of April 1999 in Broward County, Florida, U.S.A. After moving to South Africa in 2010 I then completed my matric in Hermanus Highschool Western-Cape and immediately began my tertiary studying at North-West University. My hobbies include programming, computer building, gaming and skateboarding.
+                                    My full name is Harry-Carl Lubbe Siska, I was born 8th of April 1999 in Broward County, Florida, U.S.A. After moving to South Africa in 2010 I then began my secondary education at Hermanus Highschool Western-Cape and gained my Matric certificate. After that I immediately began my tertiary studying at North-West University. My hobbies include programming, computer building, gaming and skateboarding. In my field, I am most passionate about web development, software development and software security. My end goal is to become a developer and continue doing what I love as a job.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
