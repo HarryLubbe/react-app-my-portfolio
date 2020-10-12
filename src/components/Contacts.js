@@ -73,7 +73,16 @@ const Contacts = () => {
                     <br/>
                     <InputField
                         fullWidth={true}
-                        label="Company name"
+                        label="Subject"
+                        variant="outlined"
+                        inputProps={{style:{color: "white"}}}
+                        margin="dense"
+                        size="medium"
+                    />
+                    <br/>
+                    <InputField
+                        fullWidth={true}
+                        label="Message"
                         variant="outlined"
                         inputProps={{style:{color: "white"}}}
                         margin="dense"
