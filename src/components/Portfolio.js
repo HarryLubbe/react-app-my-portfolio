@@ -16,10 +16,6 @@ import project2 from "../images/ComputerGuy.png";
 
 
 const useStyles = makeStyles({
-    mainContainer: {
-        background: "#233",
-        height: "100%"
-    },
     cardContainer: {
         maxWidth: 345,
         margin: "5rem auto"

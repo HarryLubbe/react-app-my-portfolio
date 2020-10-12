@@ -4,9 +4,6 @@ import {Typography, Box} from "@material-ui/core";
 import Navbar from "./Navbar";
 
 const useStyles = makeStyles(theme=>({
-    mainContainer: {
-        background: "#233"
-    },
     timeLine: {
         position: "relative",
         padding: "1rem",
