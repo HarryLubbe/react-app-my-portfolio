@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import project1 from "../images/react.png";
-import project2 from "../images/aboutmeimage.png";
+import project2 from "../images/aboutmeimage.jpg";
 
 
 const useStyles = makeStyles({
