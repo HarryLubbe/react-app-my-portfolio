@@ -69,8 +69,6 @@ const Portfolio = () => {
                                     My full name is Harry-Carl Lubbe Siska, I was born 8th of April 1999 in Broward County, Florida, U.S.A. After moving to South Africa in 2010 I then completed my matric in Hermanus Highschool Western-Cape and immediately began my tertiary studying at North-West University. My hobbies include programming, computer building, gaming and skateboarding.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                            </CardActions>
                         </CardActionArea>
                  </Card>
                 </Grid>
