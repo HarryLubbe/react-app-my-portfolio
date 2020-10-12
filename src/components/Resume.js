@@ -4,6 +4,9 @@ import {Typography, Box} from "@material-ui/core";
 import Navbar from "./Navbar";
 
 const useStyles = makeStyles(theme=>({
+    mainContainer: {
+        background : "#296D98"
+    },
     timeLine: {
         position: "relative",
         padding: "1rem",
@@ -105,7 +108,7 @@ const Resume = () => {
     return (
         <>
            <Navbar/>
-           <Box component="header" className={classes.mainContainer} background="#296D98">
+           <Box component="header" className={classes.mainContainer}>
                <Typography variant="h4" align="center" className={classes.heading}>
                    working experience
                </Typography>
