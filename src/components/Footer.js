@@ -22,16 +22,21 @@ const Footer = () => {
 
     return (
         <BottomNavigation width="auto" style={{background: "#222"}}>
-            <a href="https://www.facebook.com/profile.php?id=100009016342858" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/profile.php?id=100009016342858">
             <BottomNavigationAction 
                 className={classes.root}
                 style={{padding:0}} 
                 icon={<Facebook />}/>
             </a>
+            <a href="https://github.com/HarryLubbe">
             <BottomNavigationAction className={classes.root} style={{padding:0}} icon={<GitHub />}/>
+            </a>
+            <a href="https://www.linkedin.com/in/harry-lubbe-294ba61b1/8">
             <BottomNavigationAction className={classes.root} style={{padding:0}} icon={<LinkedIn />}/>
+            </a>
         </BottomNavigation>
     );
 };  
-
+//https://github.com/HarryLubbe
+//https://www.linkedin.com/in/harry-lubbe-294ba61b1/
 export default Footer;
