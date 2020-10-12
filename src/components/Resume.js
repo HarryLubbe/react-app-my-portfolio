@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const useStyles = makeStyles(theme=>({
     mainContainer: {
-        background: "#233"
+        background : "#0E2433"
     },
     timeLine: {
         position: "relative",
@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme=>({
             content: "''",
             position: "absolute",
             height: "100%",
-            border: "1px solid tan",
+            border: "1px solid black",
             right: "40px",
             top: 0
         },
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme=>({
     },
     timeLineItem: {
         padding: "1rem",
-        borderBottom: "2px solid tan",
+        borderBottom: "2px solid black",
         position: "relative",
         margin: "1rem 3rem 1rem 1rem",
         clear: "both",
@@ -48,7 +48,7 @@ const useStyles = makeStyles(theme=>({
             right: "-0.625rem",
             top: "calc(50% - 5px)",
             borderStyle: "solid",
-            borderColor: "tomato tomato transparent transparent",
+            borderColor: "#003B46 #003B46 transparent transparent",
             borderWidth: "0.625rem",
             transform: "rotate(45deg)"
         },
@@ -58,12 +58,12 @@ const useStyles = makeStyles(theme=>({
            "&:nth-of-type(2n)":{
                float: "right",
                margin: "1rem",
-               borderColor: "tan"
+               borderColor: "black"
            },
            "&:nth-of-type(2n):before":{
             right: "auto",
             left: "-0.625rem",
-            borderColor: "transparent transparent tomato tomato"
+            borderColor: "transparent transparent #003B46 #003B46"
         }
         }
     },
@@ -72,7 +72,7 @@ const useStyles = makeStyles(theme=>({
         maxWidth: "9.375rem",
         margin: "0 3rem 0 auto",
         fontSize: "1.8rem",
-        background: "tomato",
+        background: "#003B46",
         color: "white",
         lineHeight: 1,
         padding: "0.5rem 0 1rem",
@@ -92,12 +92,12 @@ const useStyles = makeStyles(theme=>({
         }
     },
     heading: {
-        color: "tomato",
+        color: "white",
         padding: "3rem 0",
         textTransform: "uppercase"
     },
     subHeading:{
-        color: "white",
+        color: "#07575B",
         padding: "0",
         textTransform: "uppercase"
     }
@@ -120,10 +120,10 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                             Matriculated
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tomato"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             Hoerskool Hermanus, Western Cape
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tan"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
                             Obtained my national senior certificate with an average of 73. 
                             Subejcts: Afrikaans home language,
                                       Mathematics,
@@ -141,10 +141,10 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                             Began tertiary studying
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tomato"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             North-West University, Potchefstroom
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tan"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
                             Began studying Bsc in Information Technology. Gained proffeciency in Python, C++ and C#.
                         </Typography>
                     </Box>
@@ -155,10 +155,10 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                             Web design and second year
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tomato"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             North-West University, Potcheftroom
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tan"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
                             Continued with second year of studying, also participated in a Web Development internship at Matogen Co. situated in Potchefstroom where I learned how to use javascript with node.js, Angular and MongoDB. Gained proffeciency in Java.
                         </Typography>
                     </Box>
@@ -169,11 +169,11 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                            (Current)Final year of studying 
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tomato"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             North-West University, Potchefstroom
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "tan"}}>
-                            Currently completing my final year of my degree.
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
+                            Currently completing the final year of my degree.
                         </Typography>
                     </Box>
                </Box>

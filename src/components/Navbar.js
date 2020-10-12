@@ -30,7 +30,7 @@ import avatar from "../avatar.png";
 const useStyles = makeStyles(theme=>({
     menuSliderContainer: {
         width: 250,
-        background: "#511",
+        background: "#003B46",
         height: "100%" 
     },
     avatar: {
@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme=>({
         height: theme.spacing(13)
     },
     listItem: {
-       color: "tan" 
+       color: "white" 
     }
 }) );
 
@@ -56,7 +56,7 @@ const menuItems = [
         listPath: "/resume"
     },{
         listIcon: <Apps/>,
-        listText: "Porfolio",
+        listText: "About me",
         listPath: "/portfolio"
     },{
         listIcon: <ContactMail/>,
@@ -123,9 +123,9 @@ const Navbar = () => {
             <AppBar position="static" style={{background: "#222"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("left", true)}> 
-                        <ArrowBack style={{color: "tomato"}}/>
+                        <ArrowBack style={{color: "#66A5AD"}}/>
                     </IconButton>
-                    <Typography variant="h5" style={{color: "tan"}}>
+                    <Typography variant="h5" style={{color: "#C4DFE6"}}>
                         Portfolio
                     </Typography>
                     <MobileMenuSlider anchor="left" open={state.left} onClose={toggleSlider("left", false)}>

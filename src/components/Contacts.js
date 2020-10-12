@@ -26,28 +26,28 @@ const useStyles = makeStyles(theme=>({
     },
     button: {
         marginTop: "1rem",
-        color: "tomato",
-        borderColor: "tomato"
+        color: "white",
+        borderColor: "white"
     }
 }));
 
 const InputField = withStyles({
     root: {
         "& label.Mui-focused": {
-            color: "tomato",
+            color: "white",
         },
         "& label": {
-           color: "tan" 
+           color: "#66A5AD" 
         },
         "& .MuiOutlinedInput-root": {
             "& fieldset": {
-                borderColor: "tan",
+                borderColor: "#66A5AD",
             },
             "&:hover fieldset": {
-                borderColor: "tan",
+                borderColor: "#66A5AD",
             },
             "&.Mui-focused fieldset": {
-                borderColor: "tan",
+                borderColor: "#66A5AD",
             }
         },
     },
@@ -58,12 +58,12 @@ const Contacts = () => {
     const classes = useStyles()
 
     return (
-        <Box component="div" style={{background: "#233", height: "100vh"}}>
+        <Box component="div">
             <Navbar/>
             <form onSubmit={sendEmail}>
             <Grid container justify="center">
                 <Box component="form" className={classes.form}>
-                    <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase"}}>
+                    <Typography variant="h5" style={{color: "white", textAlign: "center", textTransform: "uppercase"}}>
                         contact me here
                     </Typography>
                     <InputField
