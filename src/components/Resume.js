@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme=>({
             right: "-0.625rem",
             top: "calc(50% - 5px)",
             borderStyle: "solid",
-            borderColor: "purple purple transparent transparent",
+            borderColor: "#003B46 #003B46 transparent transparent",
             borderWidth: "0.625rem",
             transform: "rotate(45deg)"
         },
@@ -60,7 +60,7 @@ const useStyles = makeStyles(theme=>({
            "&:nth-of-type(2n):before":{
             right: "auto",
             left: "-0.625rem",
-            borderColor: "transparent transparent black black"
+            borderColor: "transparent transparent #003B46 #003B46"
         }
         }
     },
@@ -94,7 +94,7 @@ const useStyles = makeStyles(theme=>({
         textTransform: "uppercase"
     },
     subHeading:{
-        color: "black",
+        color: "07575B",
         padding: "0",
         textTransform: "uppercase"
     }
@@ -117,10 +117,10 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                             Matriculated
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "grey"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             Hoerskool Hermanus, Western Cape
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "black"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
                             Obtained my national senior certificate with an average of 73. 
                             Subejcts: Afrikaans home language,
                                       Mathematics,
@@ -138,10 +138,10 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                             Began tertiary studying
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "grey"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             North-West University, Potchefstroom
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "black"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
                             Began studying Bsc in Information Technology. Gained proffeciency in Python, C++ and C#.
                         </Typography>
                     </Box>
@@ -152,10 +152,10 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                             Web design and second year
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "grey"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             North-West University, Potcheftroom
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "black"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
                             Continued with second year of studying, also participated in a Web Development internship at Matogen Co. situated in Potchefstroom where I learned how to use javascript with node.js, Angular and MongoDB. Gained proffeciency in Java.
                         </Typography>
                     </Box>
@@ -166,11 +166,11 @@ const Resume = () => {
                         <Typography variant="h5" align="centre" className={classes.subHeading}>
                            (Current)Final year of studying 
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "grey"}}>
+                        <Typography variant="body1" align="centre" style={{color: "#66A5AD"}}>
                             North-West University, Potchefstroom
                         </Typography>
-                        <Typography variant="body1" align="centre" style={{color: "black"}}>
-                            Currently completing my final year of my degree.
+                        <Typography variant="body1" align="centre" style={{color: "#C4DFE6"}}>
+                            Currently completing the final year of my degree.
                         </Typography>
                     </Box>
                </Box>
