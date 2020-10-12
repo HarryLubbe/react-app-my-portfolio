@@ -26,28 +26,28 @@ const useStyles = makeStyles(theme=>({
     },
     button: {
         marginTop: "1rem",
-        color: "tomato",
-        borderColor: "tomato"
+        color: "#07575B",
+        borderColor: "#07575B"
     }
 }));
 
 const InputField = withStyles({
     root: {
         "& label.Mui-focused": {
-            color: "tomato",
+            color: "#07575B",
         },
         "& label": {
-           color: "tan" 
+           color: "#66A5AD" 
         },
         "& .MuiOutlinedInput-root": {
             "& fieldset": {
-                borderColor: "tan",
+                borderColor: "#66A5AD",
             },
             "&:hover fieldset": {
-                borderColor: "tan",
+                borderColor: "#66A5AD",
             },
             "&.Mui-focused fieldset": {
-                borderColor: "tan",
+                borderColor: "#66A5AD",
             }
         },
     },

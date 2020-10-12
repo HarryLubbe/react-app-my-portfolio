@@ -72,7 +72,7 @@ const useStyles = makeStyles(theme=>({
         maxWidth: "9.375rem",
         margin: "0 3rem 0 auto",
         fontSize: "1.8rem",
-        background: "purple",
+        background: "#003B46",
         color: "white",
         lineHeight: 1,
         padding: "0.5rem 0 1rem",
@@ -92,12 +92,12 @@ const useStyles = makeStyles(theme=>({
         }
     },
     heading: {
-        color: "purple",
+        color: "#003B46",
         padding: "3rem 0",
         textTransform: "uppercase"
     },
     subHeading:{
-        color: "07575B",
+        color: "#07575B",
         padding: "0",
         textTransform: "uppercase"
     }
