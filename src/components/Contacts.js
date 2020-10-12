@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme=>({
 const InputField = withStyles({
     root: {
         "& label.Mui-focused": {
-            color: "#07575B",
+            color: "white",
         },
         "& label": {
            color: "#66A5AD" 
@@ -47,7 +47,7 @@ const InputField = withStyles({
                 borderColor: "#66A5AD",
             },
             "&.Mui-focused fieldset": {
-                borderColor: "white",
+                borderColor: "#66A5AD",
             }
         },
     },

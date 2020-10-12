@@ -22,10 +22,12 @@ const Footer = () => {
 
     return (
         <BottomNavigation width="auto" style={{background: "#222"}}>
+            <a href="https://www.facebook.com/profile.php?id=100009016342858" target="_blank" rel="noopener noreferrer">
             <BottomNavigationAction 
                 className={classes.root}
                 style={{padding:0}} 
                 icon={<Facebook />}/>
+            </a>
             <BottomNavigationAction className={classes.root} style={{padding:0}} icon={<GitHub />}/>
             <BottomNavigationAction className={classes.root} style={{padding:0}} icon={<LinkedIn />}/>
         </BottomNavigation>
