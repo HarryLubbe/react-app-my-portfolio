@@ -105,7 +105,7 @@ const Resume = () => {
     return (
         <>
            <Navbar/>
-           <Box component="header" className={classes.mainContainer}>
+           <Box component="header" className={classes.mainContainer} background="#296D98">
                <Typography variant="h4" align="center" className={classes.heading}>
                    working experience
                </Typography>
